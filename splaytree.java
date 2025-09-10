@@ -73,7 +73,7 @@ if(y!=null)
 y.left=x.right;
 if(y.left!=null)
 y.left.parent=x;
-x.parent=y.parent;
+y.parent=x.parent;
 
 if(x.parent==null)
 root=y;
@@ -91,7 +91,7 @@ if(y!=null)
 y.right=x.left;
 if(y.right!=null)
 y.right.parent=x;
-x.parent=y.parent;
+y.parent=x.parent;
 if(x.parent==null)
 {
 root=y;
