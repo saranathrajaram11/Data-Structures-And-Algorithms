@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 
+//node creation for custom datatype
 
 class node{
 int data;
